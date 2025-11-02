@@ -1,0 +1,5 @@
+com\cahel\plugin\AuthListener.class
+com\cahel\plugin\AuthManager.class
+com\cahel\plugin\RegisterCommand.class
+com\cahel\plugin\Main.class
+com\cahel\plugin\LoginCommand.class

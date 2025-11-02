@@ -1,0 +1,14 @@
+name: FaithAuth
+main: com.cahel.plugin.Main
+version: 1.0
+api-version: 1.21
+commands:
+  register:
+    description: Registration and IP assignment
+    usage: /register <password>
+  login:
+    description: Login and IP update
+    usage: /login <password>
+  faithauthhelp:
+    description: Displays help menu and plugin info
+    usage: /faithauthhelp

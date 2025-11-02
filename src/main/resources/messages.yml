@@ -1,0 +1,42 @@
+# ====================================
+# FaithAuth - Custom Messages (EN)
+# ====================================
+
+prefix: "&7[&bFaithAuth&7] "
+
+#  Commands
+only_players: "&cOnly players can use this command."
+login_usage: "&eUse &6/login <password> &eto log in."
+register_usage: "&eUse &6/register <password> &eto create an account."
+
+# General Auth Flow
+register_prompt: "&eYou're not registered! Use &6/register <password>&e to sign up."
+login_prompt: "&eUse &6/login <password> &eto log in."
+already_registered: "&cYou're already registered! Use /login."
+registered_success: "&aSuccessfully registered and logged in!"
+wrong_password: "&cWrong password! Try again."
+login_success: "&aLogin successful!"
+ip_mismatch: "&cYour IP address has changed. Please log in again."
+auto_login: "&aAutomatically logged in (trusted IP)."
+frozen_notice: "&7You must log in before chatting."
+
+# Titles (used in sendTitle)
+title_not_registered: "&c🔒 Not registered!"
+subtitle_not_registered: "&7Use /register <password> to create an account."
+
+title_need_login: "&e🔐 Login required"
+subtitle_need_login: "&7Use /login <password> to access your account."
+
+title_auto_login: "&a✅ Logged in!"
+subtitle_auto_login: "&7Welcome back! Logged in via trusted IP."
+
+title_login_success: "&a✅ Login successful!"
+subtitle_login_success: "&7Your IP address has been updated."
+
+title_wrong_password: "&c⚠️ Wrong password!"
+subtitle_wrong_password: "&7Try again, please."
+
+# Logout, trusted info
+logout_message: "&eYou were automatically logged out due to inactivity."
+trusted_added: "&aYour IP has been marked as trusted."
+trusted_info: "&7Your IP: &f%ip% &7| Trusted: &a%trusted%"
